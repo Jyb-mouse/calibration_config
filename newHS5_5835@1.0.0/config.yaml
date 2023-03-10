@@ -1,0 +1,18 @@
+calibration_date: 2022-08-08
+sensors:
+  camera-1:
+    intrinsic: 'camera-1'
+    extrinsic: 
+      lidar-1: ['camera-1', 'lidar-1']  
+  
+  lidar-1:
+    intrinsic: 'lidar-1'
+    extrinsic: 
+      camera-1: ['lidar-1', 'camera-1']
+
+  imu-0:
+    intrinsic:
+    extrinsic:
+      camera-1: 
+      lidar-1: 
+
