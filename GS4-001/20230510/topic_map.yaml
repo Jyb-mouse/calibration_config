@@ -1,0 +1,10 @@
+calibration_date: 2023-03-24
+topic:
+  camera-1: '/cam/met/610/front'
+  camera-2: '/cam/met/665/front'
+  camera-3: '/cam/met/622/front'
+  camera-4: '/cam/met/623/front'
+  camera-5: '/cam/met/624/front'
+  lidar-1: '/lidar/rs/ruby128/topmiddle'
+  imu-1: ['/rtkimu/qj/7683/nav', '/rtkimu/qj/7683/imu', '/rtkimu/qj/7683/velocity']
+

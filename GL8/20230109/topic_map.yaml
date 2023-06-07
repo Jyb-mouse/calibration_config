@@ -1,0 +1,7 @@
+calibration_date: 2023-03-22
+topic:
+  camera-1: '/cam/met/611/front'
+  camera-2: '/cam2'
+  camera-3: '/cam3'
+  lidar-1: '/lidar/rs/ruby128/topmiddle'
+  
