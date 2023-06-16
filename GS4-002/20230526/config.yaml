@@ -5,6 +5,7 @@ sensors:
     extrinsic: 
       lidar-1: ['camera-1', 'lidar-1'] 
       body-1: ['camera-1', 'body-1']
+      body-2: ['camera-1', 'body-2']
   
   lidar-1:
     intrinsic: ''
@@ -12,6 +13,7 @@ sensors:
       camera-1: ['lidar-1', 'camera-1']
       imu-1: ['lidar-1','imu-1']  
       body-1: ['lidar-1', 'body-1']
+      body-2: ['lidar-1', 'body-2']
 
   imu-1:
     intrinsic: ''
@@ -23,3 +25,8 @@ sensors:
     intrinsic: ''
     extrinsic: 
       camera-1: ['body-1', 'camera-1']
+      
+  body-2:
+    intrinsic: ''
+    extrinsic: 
+      camera-1: ['body-2', 'camera-1']

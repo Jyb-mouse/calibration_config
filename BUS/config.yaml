@@ -1,0 +1,15 @@
+calibration_date: 2023-06-13
+sensors:
+  camera-1:
+    intrinsic: 'camera-1.yaml'
+    extrinsic: 
+      lidar-1: ['camera-1', 'lidar-1']
+      body-1: ['camera-1', 'body-1']
+
+  lidar-1:
+    intrinsic: ''
+    extrinsic: 
+      camera-1: ['lidar-1', 'camera-1']
+      body-1: ['lidar-1', 'body-1']
+
+  

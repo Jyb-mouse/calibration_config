@@ -1,0 +1,38 @@
+calibration_date: 2023-06-08
+sensors:
+  camera-2:
+    intrinsic: 'camera-2.yaml'
+    extrinsic: 
+      lidar-1: ['camera-2', 'lidar-1']
+      imu-1: ['camera-2', 'imu-1']
+      imu-2: ['camera-2', 'imu-2']
+      body-1: ['camera-2', 'body-1']
+
+  camera-1:
+    intrinsic: 'camera-1.yaml'
+    extrinsic: 
+      lidar-1: ['camera-1', 'lidar-1']
+      body-1: ['camera-1', 'body-1']
+
+  lidar-1:
+    intrinsic: 'lidar-1.txt'
+    extrinsic: 
+      camera-2: ['lidar-1', 'camera-2']
+      camera-1: ['lidar-1', 'camera-1']
+      body-1: ['lidar-1', 'body-1']
+      lidar-2: ['lidar-1', 'lidar-2']
+      imu-1: ['lidar-1', 'imu-1']
+      imu-2: ['lidar-1', 'imu-2']	
+	     
+  imu-1:
+    intrinsic: ''
+    extrinsic:
+      camera-2: ['imu-1', 'camera-2']
+      lidar-1: ['lmu-1', 'lidar-1']
+  
+  imu-2:
+    intrinsic: ''
+    extrinsic:
+      camera-2: ['imu-2', 'camera-2']
+      lidar-1: ['imu-2', 'lidar-1']
+  

@@ -4,4 +4,5 @@ topic:
   lidar-1: '/lidar/rs/ruby128/topmiddle'
   imu-1: ['/rtkimu/qj/7683/nav', '/rtkimu/qj/7683/imu', '/rtkimu/qj/7683/velocity']
   body-1: 'body-1'
+  body-2: 'body-2'
 
